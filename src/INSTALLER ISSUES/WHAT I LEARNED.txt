@@ -1,0 +1,9 @@
+*** CURRENT PROBLEM:
+It cannot stop my servicew before uninstall, so I get "Must stop" this dialog on setup.
+
+*** NEXT STEPS:
+Need to debug log the thing to see what is going wrong. Cannot build in DEBUg mode due to stupid error (must fix).
+
+*** THINGS I FIXED
++ I added that js script that, after package is built, edits ala ORCA the build script to change order of custom actions.
+  + WHY? VS 2008 and on is STUPID. It calls custom actions near end of install, which makes it useless for us.

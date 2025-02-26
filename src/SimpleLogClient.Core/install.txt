@@ -1,0 +1,2 @@
+1) Install the included registry file to store common server log settings.
+2) If using UDP logger, make sure target server has LogMonitor service installed and running.

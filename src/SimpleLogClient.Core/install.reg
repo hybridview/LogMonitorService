@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WizCompass\SimpleLogger]
+"Default Log File Directory"="\LogFiles"
+"Alternative Log File Directory"="c:\\"
+"UDP Host"="127.0.0.1"
+"UDP Port"="6514"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\WizCompass\SimpleLogger]
+"Default Log File Directory"="\LogFiles"
+"Alternative Log File Directory"="c:\\"
+"UDP Host"="127.0.0.1"
+"UDP Port"="6514"
+
